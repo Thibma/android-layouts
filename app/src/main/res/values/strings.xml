@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">android_layouts</string>
+
+    <string name="textTop">Créez votre profil personnalisé !</string>
+
+    <string name="editTextName">Votre nom</string>
+    <string name="editTextFollowing">Nombre de Followings</string>
+    <string name="editTextFollowers">Nombre de Followers</string>
+
+    <string name="button">Créer le profil</string>
 </resources>
