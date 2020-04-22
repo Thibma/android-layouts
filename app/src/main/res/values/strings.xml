@@ -4,8 +4,8 @@
     <string name="textTop">Créez votre profil personnalisé !</string>
 
     <string name="editTextName">Votre nom</string>
-    <string name="editTextFollowing">Nombre de Followings</string>
-    <string name="editTextFollowers">Nombre de Followers</string>
+    <string name="editTextFollowing">Nombre d'abonnements</string>
+    <string name="editTextFollowers">Nombre d'abonnés</string>
 
     <string name="button">Créer le profil</string>
 
