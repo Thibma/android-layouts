@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewScreen"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/imageScreen"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLittleIconsLeft"
+        app:layout_constraintTop_toTopOf="@+id/guidelineLittleIconsTop"
+        app:srcCompat="@drawable/tower_pc" />
+
+    <ImageView
+        android:id="@+id/imageViewGraphicScale"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/imageGraphic"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineLittleIconsRight"
+        app:layout_constraintTop_toTopOf="@+id/guidelineLittleIconsTop"
+        app:srcCompat="@drawable/graphics_scale" />
+
+    <ImageView
+        android:id="@+id/imageViewPP"
+        android:layout_width="133dp"
+        android:layout_height="111dp"
+        android:contentDescription="@string/imageProfile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineFullTop"
+        app:srcCompat="@drawable/discord_profile" />
+
+    <ImageView
+        android:id="@+id/imageViewBell"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/imageBell"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewSoundWaves"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewSoundWaves"
+        app:srcCompat="@drawable/bell" />
+
+    <ImageView
+        android:id="@+id/imageViewSoundWaves"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/iconWaves"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewClock"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewBell"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName"
+        app:srcCompat="@drawable/sound_waves" />
+
+    <ImageView
+        android:id="@+id/imageViewClock"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/imageClock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSoundWaves"
+        app:layout_constraintTop_toTopOf="@+id/imageViewSoundWaves"
+        app:srcCompat="@drawable/clock" />
+
+    <ImageView
+        android:id="@+id/imageViewShirt"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:contentDescription="@string/imageShirt"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewShare"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLittleIconsLeft"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFollowing"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:srcCompat="@drawable/tshirt" />
+
+    <ImageView
+        android:id="@+id/imageViewShare"
+        android:layout_width="25dp"
+        android:layout_height="27dp"
+        android:contentDescription="@string/imageShare"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewNight"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLittleIconsLeft"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewShirt"
+        app:srcCompat="@drawable/share" />
+
+    <ImageView
+        android:id="@+id/imageViewNight"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:contentDescription="@string/imageNight"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewSettings"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLittleIconsLeft"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewShare"
+        app:srcCompat="@drawable/sleep" />
+
+    <ImageView
+        android:id="@+id/imageViewSettings"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:contentDescription="@string/imageSettings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLittleIconsLeft"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewNight"
+        app:srcCompat="@drawable/settings" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/textUsername"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewPP"
+        app:layout_constraintStart_toStartOf="@+id/imageViewPP"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPP" />
+
+    <TextView
+        android:id="@+id/textViewFollowing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/textFollowing"
+        app:layout_constraintEnd_toStartOf="@+id/textViewFollower"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSoundWaves" />
+
+    <TextView
+        android:id="@+id/textViewFollower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textFollower"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewFollowing"
+        app:layout_constraintTop_toTopOf="@+id/textViewFollowing" />
+
+    <TextView
+        android:id="@+id/textViewTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/textTheme"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewShirt"
+        app:layout_constraintStart_toEndOf="@+id/imageViewShirt"
+        app:layout_constraintTop_toTopOf="@+id/imageViewShirt" />
+
+    <TextView
+        android:id="@+id/textViewShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/textShare"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewShare"
+        app:layout_constraintStart_toEndOf="@+id/imageViewShare"
+        app:layout_constraintTop_toTopOf="@+id/imageViewShare" />
+
+    <TextView
+        android:id="@+id/textViewNightMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/textNight"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewNight"
+        app:layout_constraintStart_toEndOf="@+id/imageViewNight"
+        app:layout_constraintTop_toTopOf="@+id/imageViewNight" />
+
+    <TextView
+        android:id="@+id/textViewSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/textSettings"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewSettings"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSettings"
+        app:layout_constraintTop_toTopOf="@+id/imageViewSettings" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLittleIconsLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLittleIconsRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLittleIconsTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineFullTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

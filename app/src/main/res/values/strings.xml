@@ -8,4 +8,27 @@
     <string name="editTextFollowers">Nombre de Followers</string>
 
     <string name="button">Créer le profil</string>
+
+
+    <string name="imageScreen">Icon Screen</string>
+    <string name="imageGraphic">Icon Graphic</string>
+
+    <string name="imageProfile">Profile Picture</string>
+    <string name="textUsername">Username</string>
+
+    <string name="imageBell">Icon Notification Bell</string>
+    <string name="iconWaves">Icon Waves</string>
+    <string name="imageClock">Icon Clock</string>
+
+    <string name="textFollowing">Following null</string>
+    <string name="textFollower">Follower null</string>
+
+    <string name="imageShirt">Icon T-Shirt</string>
+    <string name="textTheme">Thème</string>
+    <string name="imageShare">Icon Share</string>
+    <string name="textShare">Partagez cette Application</string>
+    <string name="imageNight">Icon Night</string>
+    <string name="textNight">Mode nuit</string>
+    <string name="imageSettings">Icon Settings</string>
+    <string name="textSettings">Paramètres</string>
 </resources>
